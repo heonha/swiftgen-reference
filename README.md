@@ -1,7 +1,7 @@
 #  SwiftGen 빠르게 시작하는 방법. (현지화, 안전한 Assets 참조)
 
-SwiftGen 라이브러리 기초 샘플 프로젝트입니다.
 
+###SwiftGen 라이브러리 기초 샘플 프로젝트입니다.
 1. 패키지 설치 (터미널)`brew install swiftgen`
 2. 초기화 (프로젝트 최상위 디렉토리) `swiftgen config init`
     -> 초기화가 완료되면 디렉토리에 swiftgen.yml파일이 생성됩니다.
@@ -19,10 +19,15 @@ SwiftGen 라이브러리 기초 샘플 프로젝트입니다.
       `I.heon.image` 를 참조하면 UIImage를 return
       `I.heon.name` assets에 추가한 name
    - 이로서 assets에 더 안전하게 참조할 수 있습니다.
-
 7. 앞으로 Localizable.string, Assets.xcassets 에 내용을 추가할 때마다
    프로젝트 디렉토리에서 `swiftgen`을 호출하면 자동으로 변경사항이 적용됩니다. 
   
+### brew가 없는 경우 (Homebrew)
+- Homebrew Official: https://brew.sh/index_ko
+- 빠른 설치 방법: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+### swiftgen github
+- https://github.com/SwiftGen/SwiftGen
 
 ### 참고자료
 이 내용은 Youtube `Kelvin Fok`의 https://youtu.be/HVtZpywL0HM 의 내용을 참고했습니다.
