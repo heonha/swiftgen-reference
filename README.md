@@ -14,7 +14,7 @@
 
 <br>
 
-**brew가 없는 경우 (Homebrew)**
+**🍺brew가 없는 경우 (Homebrew)**
 - Homebrew Official: https://brew.sh/index_ko
 - 빠른 설치 방법:   
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -34,7 +34,7 @@
 
 <br>
 
-1. 패키지 설치 (터미널)`brew install swiftgen`
+1. 📦패키지 설치 (터미널)`brew install swiftgen`
 
 <br>
 
@@ -62,7 +62,7 @@
 
 - -  -
 
-**이상 없을 때 시 나타나는 메세지 (참고용)**
+**✅이상 없을 때 시 나타나는 메세지 (참고용)**
 ```
 > Common parent directory used for all input paths:  <none>
 > Common parent directory used for all output paths: <none>
@@ -73,7 +73,7 @@
  ```
 
 
-**Error 발생시 나타나는 메세지(참고용)**
+**🚫Error 발생시 나타나는 메세지(참고용)**
 ```
 Linting swiftgen.yml
 Error: 49:6: error: parser: while parsing a block collection in line 48, column 6
