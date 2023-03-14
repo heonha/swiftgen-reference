@@ -2,21 +2,19 @@
 
 ***
 
-### brew가 없는 경우 (Homebrew)
-- Homebrew Official: https://brew.sh/index_ko
-- 빠른 설치 방법: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
-### swiftgen github
+**swiftgen github**
 - https://github.com/SwiftGen/SwiftGen
 
 <br>
 
-> ⚠️참고사항 - swiftgen을 SPM, Cocoapods로 프로젝트 내에 설치하지 않고
-> Homebrew로 설치하여 프로젝트에 초기화하여 사용합니다. (macOS용 패키지 관리자)
+**brew가 없는 경우 (Homebrew)**
+- Homebrew Official: https://brew.sh/index_ko
+- 빠른 설치 방법:   
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-<br>
-<br>
-<br>
+
+> ⚠️참고사항   - swiftgen을 SPM, Cocoapods로 프로젝트 내에 설치하지 않고
+> Homebrew로 설치하여 프로젝트에 초기화하여 사용합니다. (macOS용 패키지 관리자)
 
 ***
 
