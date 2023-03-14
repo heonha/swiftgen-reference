@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    enum Constant {
+        static let title = "Home"
+    }
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text(S.body)
+                    .padding(.bottom)
+                VStack {
+                    Text("Name")
+                    Image(I.heon.name)
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                    Text("Image")
+                    Image(uiImage: I.heon.image)
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                }
+            }
+            .padding()
+            .navigationTitle(S.title)
         }
-        .padding()
     }
 }
 

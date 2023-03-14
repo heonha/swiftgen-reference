@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,10 @@
 		395EBD5629C098DA001AC174 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395EBD5529C098DA001AC174 /* ContentView.swift */; };
 		395EBD5829C098DB001AC174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395EBD5729C098DB001AC174 /* Assets.xcassets */; };
 		395EBD5B29C098DB001AC174 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395EBD5A29C098DB001AC174 /* Preview Assets.xcassets */; };
+		395EBD6229C09A38001AC174 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 395EBD6129C09A37001AC174 /* Localizable.strings */; };
+		395EBD6429C09B5C001AC174 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395EBD6329C09B5C001AC174 /* Strings+Generated.swift */; };
+		395EBD6629C09DA9001AC174 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395EBD6529C09DA9001AC174 /* XCAssets+Generated.swift */; };
+		395EBD6829C0A00D001AC174 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 395EBD6729C0A00D001AC174 /* swiftgen.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		395EBD5529C098DA001AC174 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		395EBD5729C098DB001AC174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		395EBD5A29C098DB001AC174 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		395EBD6129C09A37001AC174 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		395EBD6329C09B5C001AC174 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		395EBD6529C09DA9001AC174 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		395EBD6729C0A00D001AC174 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		395EBD6929C0A026001AC174 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,8 @@
 		395EBD4729C098DA001AC174 = {
 			isa = PBXGroup;
 			children = (
+				395EBD6929C0A026001AC174 /* README.md */,
+				395EBD6729C0A00D001AC174 /* swiftgen.yml */,
 				395EBD5229C098DA001AC174 /* swiftgen-samples */,
 				395EBD5129C098DA001AC174 /* Products */,
 			);
@@ -51,10 +62,13 @@
 		395EBD5229C098DA001AC174 /* swiftgen-samples */ = {
 			isa = PBXGroup;
 			children = (
+				395EBD6329C09B5C001AC174 /* Strings+Generated.swift */,
 				395EBD5329C098DA001AC174 /* swiftgen_samplesApp.swift */,
 				395EBD5529C098DA001AC174 /* ContentView.swift */,
 				395EBD5729C098DB001AC174 /* Assets.xcassets */,
 				395EBD5929C098DB001AC174 /* Preview Content */,
+				395EBD6129C09A37001AC174 /* Localizable.strings */,
+				395EBD6529C09DA9001AC174 /* XCAssets+Generated.swift */,
 			);
 			path = "swiftgen-samples";
 			sourceTree = "<group>";
@@ -103,12 +117,13 @@
 				};
 			};
 			buildConfigurationList = 395EBD4B29C098DA001AC174 /* Build configuration list for PBXProject "swiftgen-samples" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 395EBD4729C098DA001AC174;
 			productRefGroup = 395EBD5129C098DA001AC174 /* Products */;
@@ -126,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				395EBD5B29C098DB001AC174 /* Preview Assets.xcassets in Resources */,
+				395EBD6229C09A38001AC174 /* Localizable.strings in Resources */,
 				395EBD5829C098DB001AC174 /* Assets.xcassets in Resources */,
+				395EBD6829C0A00D001AC174 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +156,8 @@
 			files = (
 				395EBD5629C098DA001AC174 /* ContentView.swift in Sources */,
 				395EBD5429C098DA001AC174 /* swiftgen_samplesApp.swift in Sources */,
+				395EBD6429C09B5C001AC174 /* Strings+Generated.swift in Sources */,
+				395EBD6629C09DA9001AC174 /* XCAssets+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +214,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,9 +301,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.heon.swiftgen-samples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,9 +333,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.heon.swiftgen-samples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

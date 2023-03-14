@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  swiftgen-samples
+
+  Created by Heonjin Ha on 2023/03/14.
+  
+*/
+
+
+"title" = "Home";
+"body" = "Hello, World!";
